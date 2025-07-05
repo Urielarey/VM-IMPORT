@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: montserrat2;
+  src: url("../assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: montserrat3;
+  src: url("../assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 400;
+}
+
+.logo {
+  padding-top: 3.125rem;
+  text-align: center;
+}
+.logo img{
+  width: 25%; 
+  height: auto;
+}
+
+.contacto {
+  background-color: #191716;
+  margin-bottom: 3.125rem;
+}
+.contacto .form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem 1.25rem;
+  font-family: montserrat3;
+}
+.contacto .form-container {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.625rem;
+  width: 100%;
+  max-width: 25rem;
+}
+.contacto .form-container h2 {
+  text-align: center;
+  margin-bottom: 0.625rem;
+}
+.contacto label {
+  margin-top: 0.625rem;
+}
+.contacto input, .contacto textarea {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.25rem;
+  resize: vertical;
+}
+.contacto .send {
+  width: 100%;
+  padding: 0.625rem;
+  background-color: #191716;
+  color: white;
+  border-width: 0.0625rem;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contacto .send:hover {
+  background-color: #fff;
+  color: #191716;
+  border-width: 0.0625rem;
+  border-color: #191716;
+  border-style: solid;
+}
+.contacto .contactame {
+  color: #5e5757;
+  font-size: 0.75rem;
+  padding-top: 0.625rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #191716;
+  padding: 1.875rem;
+  color: #fff;
+  text-align: center;
+  font-family: montserrat3;
+}
+a.sin-decoracion {
+  text-decoration: none;
+  color: #fff;
+}
+a.sin-decoracion:hover {
+  transform: scale(1.01);
+  color: #F7E8A4;
+}
+
+.catalogos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  padding-bottom: 9.375rem;
+}
+.catalogos .card {
+  justify-self: center;
+}
+
+.u-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.u-comprar-btn {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;  /*o 'cover' si querés que recorte*/
+}
+.u-btn-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.u-ver-btn {
+  background-color: transparent;
+  border: 1px solid #191716;
+  color: #191716;
+  transition: all 0.3s ease;
+  padding: 0.625rem;
+  font-family: montserrat;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.u-ver-btn:hover {
+  background-color: #191716;
+  color: #fff;
+  transform: scale(1.01);
+}
+
+
+.button {
+  background-color: #191716;
+  border-radius: 0.3125rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: montserrat;
+  padding: 0.625rem;
+}
+.button:hover {
+  background-color: #fff;
+  transform: scale(1.01);
+  color: #191716;
+}
+
+a{
+  text-decoration: none
+}
+
+.h2 {
+  font-family: montserrat;
+  text-align: center;
+  padding-top: 1.875rem;
+}
+
+.pimg {
+  padding: 1.25rem;
+  text-align: center;
+  font-family: montserrat;
+}
+
+.producto {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  padding-bottom: 9.375rem;
+  padding-top: 4.375rem;
+}
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.btn-wsp {
+  background-color: #25D366;
+  color: #ffffff;
+  border: none;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: center;
+    padding-bottom: 3.75rem;
+}
+.redes img{
+    padding-top: 1.25rem;
+    width: 6.25rem;
+    height: auto;
+}
+.redes a{
+    transition: transform 10s ease;
+}
+.redes a :hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .catalogos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo img{
+  width: 50%; 
+  height: auto;
+}
+}
+
+@media (max-width: 768px) {
+  .catalogos {
+    grid-template-columns: 1fr;
+  }
+  .logo img{
+  width: 50%; 
+  height: auto;
+}
+}
