@@ -243,6 +243,17 @@ a{
   width: 50%; 
   height: auto;
 }
+  .productos {
+    flex-direction: column;
+    align-items: center;
+  }
+    .hero h1 {
+    font-size: 2rem;
+  }
+  .nosotros p{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -253,4 +264,231 @@ a{
   width: 50%; 
   height: auto;
 }
+  .productos {
+    flex-direction: column;
+    align-items: center;
+  }
+    .hero h1 {
+    font-size: 2rem;
+  }
+  .nosotros p{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
+
+/* Centramos texto */
+.text-center {
+  text-align: center;
+}
+
+.destacados p{
+  font-family: montserrat3
+}
+/* Hero */
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #000;
+  font-family: montserrat 2;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #222;
+  font-family: montserrat3;
+}
+
+/* Destacados */
+.destacados {
+  background: #f5f5f5;
+  color: #222;
+  border: 1px solid #ddd;
+}
+
+/* Encargos */
+.encargos a.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff !important;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  font-family: montserrat3;
+}
+.encargos p{
+  font-family: montserrat3;
+}
+
+.encargos a.btn:hover {
+  background: #ffffff;
+  color: #000 !important;
+}
+
+/* Compra fácil */
+.compra-facil{
+    background: #f5f5f5;
+  border: 1px solid #ddd;
+}
+.compra-facil p {
+  margin-top: 0.5rem;
+  color: #111;
+  font-family: montserrat3;
+}
+
+/* Nosotros */
+.nosotros {
+  color: #222;
+  background-color: #fff;
+  margin-bottom: 150px;
+}
+
+.nosotros h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: montserrat2;
+}
+
+.nosotros p{
+  font-family: montserrat3;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+/* Strong resaltado */
+strong {
+  color: #000;
+  font-weight: 700;
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .nosotros p{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  padding-top: 4.375rem;
+  padding-bottom: 3.125rem;
+}
+
+.card-personalizada {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-personalizada:hover {
+  transform: scale(1.03);
+}
+
+.imagen-producto {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.contenido-card {
+  padding: 1rem;
+}
+
+.descripcion-producto {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.btn-ver {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: montserrat2;
+}
+
+.btn-ver:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .productos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.h4 {
+  font-family: montserrat2;
+  text-align: center;
+  padding-top: 1.875rem;
+  padding-bottom: 1.25rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: none;
+}
+
+.cambios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 9.375rem;
+}
+
+.cambios .cambiosp {
+  width: 100%;
+  max-width: 700px;
+  font-family: 'montserrat3', sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cambios .h6 {
+  font-family: 'montserrat2', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cambios ul {
+  padding: 0;
+  margin: 0;
+}
+
+.cambios li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'montserrat3', sans-serif;
+  padding: 0.625rem;
+  list-style: none;
+}
+
