@@ -492,3 +492,24 @@ strong {
   list-style: none;
 }
 
+.gracias a{
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: montserrat2;
+  margin-right: 600px;
+  margin-left: 600px;
+}
+.gracias a:hover{
+  background: #ffffff;
+  color: #000 !important;
+}
+
+
+
