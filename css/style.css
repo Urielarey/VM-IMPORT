@@ -251,6 +251,17 @@ a{
     padding-left: 30px;
     padding-right: 30px;
   }
+  .gracias .h2 {
+    font-size: 1.6rem;
+  }
+
+  .gracias .h4 {
+    font-size: 1.1rem;
+  }
+
+  .btn-volver {
+    padding: 10px 18px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -271,6 +282,23 @@ a{
   .nosotros p{
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .gracias {
+    padding: 10px;
+  }
+
+  .gracias .h2 {
+    font-size: 1.4rem;
+  }
+
+  .gracias .h4 {
+    font-size: 1rem;
+  }
+
+  .btn-volver {
+    width: 90%;
+    padding: 12px;
+    font-size: 1rem;
   }
 }
 
